@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>BUILD</pattern>
+<template>Fri May 01 18:06:57 IST 2020</template>
+</category>
+<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
+<template>Program AB 0.0.4.2 beta -- AI Foundation Reference AIML 2.0 implementation</template>
+</category>
+</aiml>

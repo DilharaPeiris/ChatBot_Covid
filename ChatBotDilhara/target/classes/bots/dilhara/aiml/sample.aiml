@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<category><pattern>WHAT IS A CORONAVIRUS</pattern>
+<template>1</template>
+</category>
+<category><pattern>WHAT IS COVID-19</pattern>
+<template>1</template>
+</category>
+<category><pattern>WHAT ARE THE SYMPTOMS OF COVID-19</pattern>
+<template>2</template>
+</category>
+<category><pattern>WHAT ARE THE PRECAUTIONS OF COVID-19</pattern>
+<template>3</template>
+</category>
+<category><pattern>WHAT ARE THE REGIONS WITH DANGER LEVEL</pattern>
+<template>4</template>
+</category>
+<category><pattern>WHAT ARE THE DANGER FREE COUNTRIES</pattern>
+<template>5</template>
+</category>
+<category><pattern>WHAT IS THE DEATH RATE OF SRI LANKA</pattern>
+<template>6</template>
+</category>
+<category><pattern>WHAT IS THE DEATH RATE OF USA</pattern>
+<template>7</template>
+</category>
+<category><pattern>WHAT IS THE DEATH RATE OF ITALY</pattern>
+<template>8</template>
+</category>
+<category><pattern>WHAT ARE THE DANGEROUS COUNTRIES</pattern>
+<template>9</template>
+</category>
+<category><pattern>HELLO</pattern>
+<template><random>
+            <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+			 <li>Hello User </li>
+			 <li>Hi My Friend</li>
+         </random></template>
+</category>
+<category><pattern>I AM *</pattern>
+<template>Hello <set name="username"> <star/>! </set></template>
+</category>
+<category><pattern>HELLO *</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+<category><pattern>_ HELLO</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+<category><pattern>_ HELLO *</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+<category><pattern>TELL ME ABOUT *</pattern>
+<template>Here is some info about <star/>
+	<button>
+		<text>Click here </text>
+		<url>en,wikipedia.org/wiki<star/></url>
+	</button></template>
+</category>
+<category><pattern>I LIKE *</pattern>
+<template>I too like <star/>.</template>
+</category>
+<category><pattern>* IS A *</pattern>
+<template>How <star index="1"/> can not be a <star index="2"/>?</template>
+</category>
+<category><pattern>GOOD NIGHT</pattern>
+<template>Hi <get name="username"/> Thanks for the conversation!</template>
+</category>
+<category><pattern>BYE</pattern>
+<template>Good Bye!</template>
+</category>
+<category><pattern>BYE *</pattern>
+<template><srai>BYE</srai></template>
+</category>
+<category><pattern>_ BYE *</pattern>
+<template><srai>BYE</srai></template>
+</category>
+<category><pattern>FACTORY</pattern>
+<template>Development Center!</template>
+</category>
+<category><pattern>INDUSTRY</pattern>
+<template><srai>FACTORY</srai></template>
+</category>
+<category><pattern>SCHOOL</pattern>
+<template>School is an important institution in a child's life.</template>
+</category>
+<category><pattern>_ SCHOOL</pattern>
+<template><srai>SCHOOL</srai></template>
+</category>
+<category><pattern>SCHOOL *</pattern>
+<template><srai>SCHOOL</srai></template>
+</category>
+<category><pattern>_ SCHOOL *</pattern>
+<template><srai>SCHOOL</srai></template>
+</category>
+<category><pattern>WHAT ABOUT MOVIES</pattern>
+<template>Do you like comedy movies</template>
+</category>
+<category><pattern>YES</pattern><that>DO YOU LIKE COMEDY MOVIES</that>
+<template>Nice, I like comedy movies too.</template>
+</category>
+<category><pattern>NO</pattern><that>DO YOU LIKE COMEDY MOVIES</that>
+<template>Ok! But I like comedy movies.</template>
+</category>
+<category><pattern>LET`S DISCUSS MOVIES</pattern>
+<template>Yes <set name="topic">movies</set></template>
+</category>
+<topic name="MOVIES">
+<category><pattern>*</pattern>
+<template>Watching good movie refreshes our minds.</template>
+</category></topic>
+
+<topic name="MOVIES">
+<category><pattern>I LIKE WATCHING COMEDY!</pattern>
+<template>I like comedy movies too.</template>
+</category></topic>
+
+<category><pattern>MY NAME IS *</pattern>
+<template>Hello!<think><set name="username"> <star/></set></think></template>
+</category>
+<category><pattern>BYEEE</pattern>
+<template>Hi <get name="username"/> Thanks for the conversation!</template>
+</category>
+<category><pattern>HOW ARE YOU FEELING TODAY</pattern>
+<template><think><set name="state"> happy</set></think>
+         <condition name="state" value="happy">
+            I am happy!
+         </condition>
+         
+         <condition name="state" value="sad">
+            I am sad!
+         </condition></template>
+</category>
+</aiml>

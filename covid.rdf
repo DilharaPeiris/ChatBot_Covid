@@ -1,0 +1,573 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#"
+     xml:base="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-12="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#follows -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#follows">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Citizen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#shows -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#shows">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Citizen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#takes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#takes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#IDno -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#IDno"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#countryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#countryName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#infectionPossibilities -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#infectionPossibilities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#isCritical -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#isCritical"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#isPersonal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#isPersonal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#noOfCasualties -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#noOfCasualties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#noOfDeaths -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#noOfDeaths"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#regionName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#regionName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Citizen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Citizen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerFreeCountry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerFreeCountry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerousCountry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerousCountry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#HealthyCitizen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#HealthyCitizen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Citizen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#InfectedCitizen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#InfectedCitizen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Citizen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Region"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Africa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Africa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Region"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution1"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Africa</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5000</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Asia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Asia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Region"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution3"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asia</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500000</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100000</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#China">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerousCountry"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">82630</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4633</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Europe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Europe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Region"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution3"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">800000</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70000</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Italy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerousCountry"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">199894</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26977</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Nepal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Nepal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerFreeCountry"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nepal</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#North_America -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#North_America">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Region"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution3"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">North_America</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1050000</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60000</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#North_Korea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#North_Korea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerFreeCountry"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">northKorea</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#SriLanka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#SriLanka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerousCountry"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SriLanka</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">588</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Syria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Syria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerFreeCountry"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syria</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerousCountry"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1002900</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56376</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Zambia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Zambia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#DangerFreeCountry"/>
+        <takes rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zambia</name>
+        <noOfCasualties rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88</noOfCasualties>
+        <noOfDeaths rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</noOfDeaths>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#HealthyCitizen"/>
+        <follows rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution1"/>
+        <shows rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom1"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sri Lanka</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#HealthyCitizen"/>
+        <follows rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution5"/>
+        <shows rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom4"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danny</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#InfectedCitizen"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rupert</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#InfectedCitizen"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kleweski</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#HealthyCitizen"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syria</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#HealthyCitizen"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zambia</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silva</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#InfectedCitizen"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebona</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#citizen8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#InfectedCitizen"/>
+        <IDno rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</IDno>
+        <countryName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sri Lanka</countryName>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <isCritical rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isCritical>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fernando</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <isPersonal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isPersonal>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SelfDistancing</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <isPersonal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isPersonal>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lockdown</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</infectionPossibilities>
+        <isPersonal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isPersonal>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BannedOffRegion</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <isPersonal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</isPersonal>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clean hands often</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#precaution5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Precaution"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <isPersonal rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</isPersonal>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cover nose and mouth</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symprom5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symprom5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of speech or movement</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fever</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tiredness</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">difficulty breathing</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#symptom4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#Symptom"/>
+        <infectionPossibilities rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low</infectionPossibilities>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cough</name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
