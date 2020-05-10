@@ -1,0 +1,68 @@
+i. What are the symptoms of COVID-19? 
+PREFIX covid: <http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#> 
+SELECT ?Symptom ?name WHERE 
+{  
+	?Symptom a covid:Symptom.  
+	?Symptom covid:name ?name. 
+}
+
+ii. What are the Regions with high danger? What are the Regions with low danger? What are the Regions with average danger? 
+
+PREFIX covid: <http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#> 
+SELECT ?Region ?name ?danger WHERE  
+{  
+	?Region a covid:Region.  
+	?Region covid:name ?name.  
+	?Region covid:infectionPossibilities ?danger 
+}
+
+iii. What are the Countries with high danger? What are the Countries with low danger? What are the Countries with average danger? 
+ 
+Countries with low danger 
+PREFIX covid: <http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#> 
+SELECT ?DangerFreeCountry ?name ?deaths ?infectionPossibilities ?precautionName WHERE 
+ {  
+	?DangerFreeCountry a covid:DangerFreeCountry.  
+	?DangerFreeCountry covid:name ?name.  
+	?DangerFreeCountry covid:noOfDeaths ?deaths.  
+	?DangerFreeCountry covid:infectionPossibilities ?infectionPossibilities.  
+	?DangerFreeCountry covid:takes ?precaution.  
+	?precaution covid:name ?precautionName.  
+} 
+
+Countries with high danger 
+
+PREFIX covid: <http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#> 
+SELECT ?DangerFreeCountry ?name ?deaths ?casualties ?infectionPossibilities ?precautionName  WHERE  
+{  
+	?DangerousCountry a covid:DangerousCountry.  
+	?DangerousCountry covid:name ?name.  
+	?DangerousCountry covid:noOfDeaths ?deaths.  
+	?DangerousCountry covid:noOfCasualties ?casualties.  
+	?DangerousCountry covid:infectionPossibilities ?infectionPossibilities.  
+	?DangerousCountry covid:takes ?precaution.  
+	?precaution covid:name ?precautionName. 
+} 
+ 
+
+iv. What are the precautions for COVID-19? 
+PREFIX covid: <http://www.semanticweb.org/dilhara/ontologies/2020/3/untitled-ontology-12#> 
+SELECT ?Precaution ?name  WHERE  
+{  
+	?Precaution a covid:Precaution.  
+	?Precaution covid:name ?name. 
+} 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
